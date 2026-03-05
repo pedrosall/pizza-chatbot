@@ -1,27 +1,12 @@
-# 🍕 Pizza Ordering Chatbot
+# 🍕 PizzaBot Pro con IA (Gemini)
+Bot de Telegram para gestión de pizzerías con Dashboard en Streamlit.
 
-Self-made project to learn:
+## 🚀 Instalación rápida
+1. Clona el repo.
+2. Crea un archivo `.env` con tus llaves (`TELEGRAM_TOKEN`, `GOOGLE_API_KEY`).
+3. Ejecuta `docker compose up --build`.
 
-- Conversational chatbot design
-- State machines
-- Separation between logic and AI
-- Controlled use of language models
-
-## Architecture
-
-- AI used only for entity extraction
-- Code-controlled flow
-- Explicit conversational states
-
-## Technologies
-
-- Python
-- OpenAI API
-- Panel
-- Git
-
-## Key learnings
-
-- AI does not decide the flow
-- The state lives in the backend
-- Prompts are not architecture
+## 🛠️ Tecnologías
+* **Python** (aiogram, streamlit)
+* **Docker** & **Docker Compose**
+* **Google Gemini AI** (NLP para extracción de pedidos)

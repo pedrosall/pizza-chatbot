@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  telegram_bot:
+    build: .
+    container_name: pizza_bot
+    env_file:
+      - .env
+    command: python telegram_bot.py
